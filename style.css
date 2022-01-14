@@ -1,0 +1,21 @@
+h1
+{
+      font_family: 'Times New Roman';
+      font_size:36px;
+      background: #ffffff;
+      color:maroon;
+}
+h2
+{
+      font_family: verdana;
+      font_size:25px;
+      background: #ffffff;
+      color:pink;
+}
+p
+{
+      font_family: verdana;
+      font_size:15px;
+      background: #ffffff;
+      color:black;
+}

@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Fabinoci series</title>
+</head>
+<body>
+<script type="text/javascript">
+var num1=parseInt(prompt("Enter the limit:"));
+var n1=0,n2=1,next_num,i;
+document.write("Fibonaci series:");
+for(i=1;i<=num1;i++)
+{
+	next_num=n1+n2;
+	document.write("<br>"+next_num);
+	n1=n2;
+	n2=next_num;
+	
+}
+</script>
+</body>
+</html>

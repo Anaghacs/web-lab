@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>square root</title>
+</head>
+<body>
+<script type="text/javascript">
+var num1=paresInt(prompt("Enter the number:"))
+squr=math.floor(num1*0.5)
+document.write("The square root is:",squr)
+</script>
+</body>
+</html>

@@ -5,19 +5,22 @@
 <input type="text" name="number"/>
 <button type="submit" name="submit">continue</button>
 </from>
-
 <?php
-
-$num = $_POST['number'];
-$i=1;
-$f=1;
-while($i<=$num)
+if(isset($_POST['submit']))
 {
-	$f=$f*$i;
-	$i=$i+1;
-	
+	$num=$_POST['number'];
+	$i=1;
+	$temp=0;
+	while($i<=$num)
+	{
+		if($num % $i==0)
+		{
+			echo "<br> Factors=".$i;
+			
+		}
+$i=$i+1;
+	}
 }
-echo "Factorial of the number :".$f;
 ?>
 </body>
 </html>
